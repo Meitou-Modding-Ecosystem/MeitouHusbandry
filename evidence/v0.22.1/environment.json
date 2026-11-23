@@ -1,0 +1,12 @@
+{
+  "gameCommit": "9ee4074bbc6fd7fdeb26108a04afc9f90cb1dc01",
+  "verifiedInstalledFiles": 260,
+  "gameArchiveSha256": "e9d1c41330d0859902b35db450209f86a5cf5093c846545153c3eb131161375f",
+  "gameVersion": "0.22.1",
+  "runtime": "Windows x64",
+  "editorArchiveSha256": "a2681391ebf8bbd6815034b27766d05d5112c0d84ccb39e2471967ab2bc4716d",
+  "apiVersion": 2,
+  "sdk": "11.0.100",
+  "editorVersion": "0.1.0-playtest.1",
+  "editorReaderVersion": "0.20.1"
+}

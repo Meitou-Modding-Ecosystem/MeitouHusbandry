@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "provider": "meitou.husbandry",
+  "name": "Meitou Husbandry",
+  "actions": [
+    {
+      "id": "hitching-post",
+      "label": "Add hitching post",
+      "recordType": "Building",
+      "inputs": [
+        {
+          "key": "pack",
+          "label": "Pack ID",
+          "kind": "text",
+          "default": "stoat-hitching-post"
+        },
+        {
+          "key": "post",
+          "label": "Definition ID",
+          "kind": "text",
+          "default": "stoat-hitching-post.gate"
+        },
+        {
+          "key": "buildings",
+          "label": "Post building records",
+          "kind": "selection"
+        },
+        {
+          "key": "offset",
+          "label": "Standing offset · local X Y Z",
+          "kind": "vector",
+          "default": [
+            16,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "radius",
+          "label": "Stay radius · world units",
+          "kind": "number",
+          "default": 12
+        }
+      ],
+      "edits": [
+        {
+          "op": "dependency",
+          "file": "Meitou Husbandry.mod"
+        },
+        {
+          "op": "jsonEntry",
+          "file": "husbandry.json",
+          "versionField": "schemaVersion",
+          "version": 1,
+          "preserveVersions": [
+            1
+          ],
+          "ownerField": "packId",
+          "owner": "pack",
+          "array": "posts",
+          "idField": "id",
+          "id": "post",
+          "ownerPrefix": true,
+          "fields": {
+            "id": "post",
+            "buildingRecordIds": "buildings",
+            "standingOffset": "offset",
+            "radius": "radius"
+          },
+          "uniqueSelection": "buildingRecordIds"
+        }
+      ]
+    }
+  ]
+}

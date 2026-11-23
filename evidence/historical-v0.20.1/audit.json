@@ -1,0 +1,32 @@
+{
+  "archives": {
+    "Meitou Husbandry.zip": "518c298f673a63126e5a57c519aff06dddef2d34904035f207c9963270d18f73",
+    "Stoat Hitching Post.zip": "e95ef9e03c6faa5ee1f435bd30d44bd806774d957c777da90394c13bea96fa3e"
+  },
+  "readySaveFiles": 60,
+  "assignedSaveFiles": 61,
+  "restored": {
+    "Post": "39.16:2-Stoat Hitching Post.mod",
+    "Animal": {
+      "Record": "42201-rebirth.mod",
+      "Portrait": 2266246144,
+      "Handle": {
+        "Type": 1,
+        "C": 1,
+        "Cs": 2759725,
+        "I": 2,
+        "S": -1212391007,
+        "IsNull": false,
+        "RecordType": 1
+      }
+    },
+    "Blocked": false
+  },
+  "otherGarruPortrait": 2364758784,
+  "profiles": {
+    "core": "core-20261115-183906-436",
+    "play": "ride-20261115-182249-962",
+    "second": "two-20261115-182439-022",
+    "prepare": "prepare-20261115-181036-507"
+  }
+}

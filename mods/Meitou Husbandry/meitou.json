@@ -1,0 +1,10 @@
+{
+  "id": "meitou.husbandry",
+  "version": "0.1.0-playtest.2",
+  "apiVersion": 2,
+  "gameVersion": "=0.22.1",
+  "assemblies": [
+    "Meitou.Husbandry.dll"
+  ],
+  "entry": "Meitou.Husbandry.HusbandryMod"
+}

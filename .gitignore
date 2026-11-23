@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+.local/
+trials/
+saves/
+dist/
+*.dll
+*.pdb
+*.user
+*.log
+*.tmp
+meitou.local.json
+meitou.user.json
+.vs/
+.idea/
+__pycache__/
+*.pyc

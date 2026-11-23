@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.mod -text
+*.zone -text
+*.png -text
+*.mp4 -text
+projects/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

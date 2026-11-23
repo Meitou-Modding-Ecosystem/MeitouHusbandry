@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><AssemblyName>Meitou.Husbandry</AssemblyName></PropertyGroup>
+  <Target Name="Stage" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'"><Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MSBuildProjectDirectory)/../mods/Meitou Husbandry"/></Target>
+</Project>

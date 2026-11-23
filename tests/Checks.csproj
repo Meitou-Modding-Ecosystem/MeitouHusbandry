@@ -1,0 +1,2 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><AssemblyName>Husbandry.Checks</AssemblyName></PropertyGroup>
+<ItemGroup><ProjectReference Include="../framework/Meitou.Husbandry.csproj"/><Reference Update="Meitou.Core;Meitou.Data;Meitou.Simulation;MeitouClient" Private="true"/></ItemGroup></Project>

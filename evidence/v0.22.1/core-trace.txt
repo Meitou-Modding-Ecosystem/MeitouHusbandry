@@ -1,0 +1,5 @@
+HITCH QA Armed core
+mods      1 code mod(s) enabled; Harmony 3.0.0.0, code-mod API 2
+mod       meitou.husbandry: loaded from Meitou Husbandry (Meitou.Husbandry)
+mods      1 enabled, 1 loaded, 0 problems, from <isolated-profile>
+HITCH QA PASS framework loaded alone, zero post instances and zero hitching rows

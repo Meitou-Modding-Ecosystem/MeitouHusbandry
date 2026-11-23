@@ -1,0 +1,2 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><AssemblyName>Hitch.Live</AssemblyName></PropertyGroup>
+<ItemGroup><Reference Include="0Harmony"><HintPath>$(MeitouDir)/0Harmony.dll</HintPath><Private>false</Private></Reference></ItemGroup></Project>

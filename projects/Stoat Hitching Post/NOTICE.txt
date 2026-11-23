@@ -1,0 +1,2 @@
+Stoat Hitching Post: original definitions and placement by the Meitou Husbandry contributors, dedicated under CC0-1.0 (LICENSE.txt).
+Requires Meitou Husbandry and the player's own Kenshi installation. References stock Kenshi art and collision; no game art is included.

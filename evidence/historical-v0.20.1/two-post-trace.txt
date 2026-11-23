@@ -1,0 +1,18 @@
+HITCH QA Armed two
+mod       meitou.husbandry: Stoat Hitching Post.mod defines 1 hitching post building type(s).
+mod       meitou.husbandry: loaded from Meitou Husbandry (Meitou.Husbandry)
+mods      3 enabled, 3 loaded, 0 problems, from <isolated-profile>
+HITCH QA 4 assign first instance
+HITCH QA F10 Assign to nearby hitching post: Assign queued.
+HITCH QA 6 send sibling to second
+mod       meitou.husbandry: Assigned Garru to Stoat Hitching Post.
+HITCH QA 8 at second
+HITCH QA F10 Assign to nearby hitching post: Assign queued.
+HITCH QA 68 both assigned
+mod       meitou.husbandry: Assigned Garru to Stoat Hitching Post.
+HITCH QA Two instances: 2266246144 at 39.16:2-Stoat Hitching Post.mod; 2364758784 at 39.16:1-Husbandry Second Post QA.mod
+HITCH QA 70 release only first
+HITCH QA F10 Release from hitching post: Release queued.
+HITCH QA 72 independent release
+mod       meitou.husbandry: Released Garru from Stoat Hitching Post.
+HITCH QA PASS two FCS placements of one BUILDING supported independent occupancies and independent release

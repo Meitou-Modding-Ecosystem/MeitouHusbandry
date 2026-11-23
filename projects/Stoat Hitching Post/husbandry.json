@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "packId": "stoat-hitching-post",
+  "posts": [
+    {
+      "id": "stoat-hitching-post.gate",
+      "buildingRecordIds": [
+        "1-Stoat Hitching Post.mod"
+      ],
+      "standingOffset": [
+        16,
+        0,
+        0
+      ],
+      "radius": 12
+    }
+  ]
+}

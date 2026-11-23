@@ -1,0 +1,49 @@
+HITCH QA Armed ride
+mod       meitou.husbandry: Stoat Hitching Post.mod defines 1 hitching post building type(s).
+mod       meitou.husbandry: loaded from Meitou Husbandry (Meitou.Husbandry)
+mods      2 enabled, 2 loaded, 0 problems, from <isolated-profile>
+HITCH QA tick 4 start first=<35100.875, 1046.8645, -70646.58> task=Idle row= order= trace= inside=False d=78886.1
+HITCH QA Placed post 39.16:2-Stoat Hitching Post.mod base=<35071, 1052.169, -70668> stand=<35087, 1052.169, -70668> first=2266246144 second=2364758784; handler=1533662-rebirth.mod
+HITCH QA 4 assign
+HITCH QA F10 Assign to nearby hitching post: Assign queued.
+HITCH QA 6 settle
+mod       meitou.husbandry: Assigned Garru to Stoat Hitching Post.
+HITCH QA F10 Assign to nearby hitching post: Assign queued.
+HITCH QA 55 occupied
+mod       meitou.husbandry: Garru is already assigned to Stoat Hitching Post.
+HITCH QA F10 Assign to nearby hitching post: Assign queued.
+HITCH QA 58 check occupied
+mod       meitou.husbandry: The nearby hitching post is occupied.
+HITCH QA tick 69 check occupied first=<35089.88, 1050.4358, -70665.086> task=GoTo row=MoveOnFreeWill order= trace=Husbandry: return to hitching post inside=True d=4.1
+HITCH QA 71 handler away
+HITCH QA 108 direct order
+HITCH QA tick 129 direct order first=<35096.438, 1049.949, -70666.69> task=GoTo row=MoveCusOrdered order=MoveCusOrdered trace=Orders inside=True d=9.5
+HITCH QA reached player destination, distance from stand=77.4
+HITCH QA 179 return
+HITCH QA tick 193 return first=<35170.215, 1039.1326, -70664.03> task=Idle row=MoveCusOrdered order= trace=Orders inside=False d=83.3
+HITCH QA tick 255 return first=<35145.785, 1043.6366, -70665.18> task=GoTo row=MoveOnFreeWill order= trace=Husbandry: return to hitching post inside=False d=58.9
+HITCH QA tick 320 return first=<35113.285, 1048.0421, -70666.7> task=GoTo row=MoveOnFreeWill order= trace=Husbandry: return to hitching post inside=False d=26.3
+HITCH QA returned without another player order; maximum excursion 83.3
+HITCH QA 349 save
+HITCH QA 357 load
+HITCH QA tick 3 load first=<35097.785, 1049.907, -70667.43> task=Idle row= order= trace= inside=True d=10.8
+HITCH QA restored exact Garru 2266246144; same-record sibling 2364758784 free
+HITCH QA 3 second order
+HITCH QA 68 release on return
+HITCH QA tick 86 release on return first=<35170.023, 1039.1713, -70664.05> task=Idle row=MoveCusOrdered order= trace= inside=False d=83.1
+HITCH QA releasing while returning, distance=56.7, row=MoveOnFreeWill
+HITCH QA F10 Release from hitching post: Release queued.
+HITCH QA 149 released
+mod       meitou.husbandry: Released Garru from Stoat Hitching Post.
+HITCH QA 151 walk away
+HITCH QA tick 160 walk away first=<35140.543, 1044.4885, -70665.44> task=GoTo row=MoveCusOrdered order=MoveCusOrdered trace= inside=False d=53.6
+HITCH QA 195 stay released
+HITCH QA tick 231 stay released first=<35170.23, 1039.1312, -70664.04> task=Idle row=MoveCusOrdered order= trace= inside=False d=83.3
+HITCH QA 270 away
+HITCH QA QA travel fixture: all party away, first 3850 units from post
+HITCH QA 323 revisit
+HITCH QA 343 assign sibling
+HITCH QA F10 Assign to nearby hitching post: Assign queued.
+HITCH QA 344 reuse
+mod       meitou.husbandry: Assigned Garru to Stoat Hitching Post.
+HITCH QA PASS same post reusable; native orders, return, release, save/reload, revisit and sibling verified. key=39.16:2-Stoat Hitching Post.mod, serials=2266246144/2364758784

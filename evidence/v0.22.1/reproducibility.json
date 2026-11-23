@@ -1,0 +1,12 @@
+{
+  "samplePayload": "All five files match the Maestro export byte for byte; ZIP timestamps are normalized.",
+  "framework": "6e445d9f38836f0b7b7993237db941d0b28bc13d46db7efe29dbe5668acfebc6",
+  "sample": "50f79b277f70a502ee51feb2dba533382abc99861d65b290b449be5596e0585d",
+  "methods": [
+    "publication checkout",
+    "fresh clone",
+    "source archive without Git metadata"
+  ],
+  "embeddedPdb": "No absolute drive paths or SourceLink URLs.",
+  "version": "0.1.0-playtest.2"
+}

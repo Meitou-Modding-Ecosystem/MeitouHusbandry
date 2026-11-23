@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Version>0.1.0-playtest.2</Version>
+    <MeitouDir Condition="'$(MeitouDir)' == ''">$(MEITOU_DIR)</MeitouDir>
+    <PathMap>$(MSBuildThisFileDirectory)=/_/</PathMap>
+    <DebugType>embedded</DebugType>
+    <Deterministic>true</Deterministic>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <!-- Match builds from a Git checkout and the corresponding source archive. -->
+    <EnableSourceLink>false</EnableSourceLink>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Meitou.Core;Meitou.Data;Meitou.Simulation;MeitouClient">
+      <HintPath>$(MeitouDir)/%(Identity).dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <Target Name="CheckClient" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(MeitouDir)/MeitouClient.dll')" Text="Set MEITOU_DIR to the packaged MeitouClient v0.22.1 game directory." />
+  </Target>
+</Project>
