@@ -10,4 +10,4 @@
 
 The separate assigned fixture save captures the tested assignment. Keep test saves separate from your usual playthrough.
 
-Report the game version, mod load order, animal/post identity and shortest reproduction at https://github.com/mattresspad/MeitouHusbandry/issues. Include a save only if you are comfortable sharing it. The mod supplies no ropes, tether animation, breeding or taming in this playtest.
+Report the game version, mod load order, animal/post identity and shortest reproduction at https://github.com/Meitou-Modding-Ecosystem/MeitouHusbandry/issues. Include a save only if you are comfortable sharing it. The mod supplies no ropes, tether animation, breeding or taming in this playtest.

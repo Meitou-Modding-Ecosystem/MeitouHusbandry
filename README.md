@@ -1,6 +1,6 @@
 # Meitou Husbandry
 
-[Download the playtest](https://github.com/mattresspad/MeitouHusbandry/releases/tag/v0.1.0-playtest.2) · [Make a hitching post for my town](AUTHORING.md) · [Results](RESULTS.md) · [Feedback](https://github.com/mattresspad/MeitouHusbandry/issues)
+[Download the playtest](https://github.com/Meitou-Modding-Ecosystem/MeitouHusbandry/releases/tag/v0.1.0-playtest.2) · [Make a hitching post for my town](AUTHORING.md) · [Results](RESULTS.md) · [Feedback](https://github.com/Meitou-Modding-Ecosystem/MeitouHusbandry/issues)
 
 An optional framework for animal interactions in Meitou. This first playtest gives a town author a hitching post: assign one owned animal, let it obey a direct movement order, and have it return when idle. Release it to end the assignment.
 
