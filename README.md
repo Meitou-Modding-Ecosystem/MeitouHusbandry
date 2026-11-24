@@ -21,7 +21,7 @@ Assignments survive saving and reloading. Blocked routes stop retrying and repor
 
 Your mod owns the building, its appearance and collision, each physical placement, and `husbandry.json`. Husbandry supplies assignment, return behavior and persistence. See the [editable Stoat project](projects/Stoat%20Hitching%20Post/) and [authoring recipe](AUTHORING.md).
 
-The framework ships an **Add hitching post** descriptor for [Maestro v0.1.0-playtest.1](https://github.com/mattresspad/MeitouMaestro/releases/tag/v0.1.0-playtest.1). That editor requires **v0.20.1 game readers** for authoring; the resulting pack is tested here on **v0.22.1**. Players do not need the editor or older readers. Authors may also create the same dependency and JSON directly.
+The framework ships an **Add hitching post** descriptor for [Maestro v0.1.0-playtest.1](https://github.com/Meitou-Modding-Ecosystem/MeitouMaestro/releases/tag/v0.1.0-playtest.1). That editor requires **v0.20.1 game readers** for authoring; the resulting pack is tested here on **v0.22.1**. Players do not need the editor or older readers. Authors may also create the same dependency and JSON directly.
 
 Other code mods can query the current world's assignment through `IHusbandryApi.GetHitch`. [Consumer example](AUTHORING.md#read-an-assignment-from-another-framework).
 
